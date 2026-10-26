@@ -327,6 +327,15 @@ header {
 }
 .btn-lifetime:hover { background: #d97706; transform: translateY(-1px); }
 
+.fine-print {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+  text-align: center;
+  max-width: 640px;
+  margin: 28px auto 0;
+}
+
 /* ── FAQ ── */
 .faq-section {
   max-width: 680px;
@@ -364,7 +373,7 @@ header {
   overflow: hidden;
   transition: max-height .3s ease, padding .3s;
 }
-.faq-item.open .faq-a { max-height: 200px; padding-top: 12px; }
+.faq-item.open .faq-a { max-height: 320px; padding-top: 12px; }
 
 /* ── GUARANTEE ── */
 .guarantee {
@@ -407,7 +416,7 @@ body.show-yearly .yearly-price  { display: block; }
 <section class="hero">
   <span class="hero-label">Simple Pricing</span>
   <h1>Start free.<br>Upgrade when you're ready.</h1>
-  <p>GKS Write is free forever for one device. Upgrade to Pro for unlimited everything.</p>
+  <p>GKS Write is free forever on one device. Upgrade to Pro for more devices, higher daily AI limits, and unlimited backups.</p>
 </section>
 
 <!-- BILLING TOGGLE -->
@@ -472,13 +481,13 @@ body.show-yearly .yearly-price  { display: block; }
         </div>
       </div>
 
-      <p class="card-desc">Unlimited everything. No device limits, no download limits. License key emailed instantly after payment.</p>
+      <p class="card-desc">Unlimited everything. 5 device limit, no download limits. License key emailed after payment.</p>
       <ul class="features">
         <li><span class="icon yes">✓</span> Everything in Free</li>
-        <li><span class="icon yes">✓</span> <strong>Unlimited devices</strong></li>
+        <li><span class="icon yes">✓</span> <strong>Up to 5 of your own devices</strong></li>
         <li><span class="icon yes">✓</span> <strong>Unlimited .gkspack downloads</strong></li>
         <li><span class="icon yes">✓</span> <strong>Priority AI writing</strong></li>
-        <li><span class="icon yes">✓</span> Activate instantly with license key</li>
+        <li><span class="icon yes">✓</span> Activate with license key</li>
         <li><span class="icon yes">✓</span> Cancel anytime — no obligations</li>
         <li><span class="icon yes">✓</span> Priority email support</li>
       </ul>
@@ -515,6 +524,8 @@ body.show-yearly .yearly-price  { display: block; }
 
   </div><!-- /cards -->
 
+  <p class="fine-print">Pro licenses are for individual use only and may not be shared, resold, or distributed. Need more devices or a team license? <a href="mailto:gkswrite@allbiosolution.com" style="color:var(--teal);">Contact us</a>.</p>
+
   <!-- CANCEL POLICY -->
   <div class="guarantee" style="margin-top:48px;">
     <h3>✅ Cancel anytime — no questions asked</h3>
@@ -534,17 +545,17 @@ body.show-yearly .yearly-price  { display: block; }
 
   <div class="faq-item">
     <div class="faq-q" onclick="toggleFaq(this)">How do I get my license key after paying?</div>
-    <div class="faq-a">Your license key is emailed automatically within seconds of payment completing. Check the inbox of the email linked to your PayPal account. Then open GKS Write → Settings ⚙️ → License Key → paste it in and click Save. Pro features unlock immediately.</div>
+    <div class="faq-a">Your license key is emailed automatically after payment completes. Check the inbox of the email linked to your PayPal account. Then open GKS Write → Settings ⚙️ → License Key → paste it in and click Save. Pro features unlock immediately.</div>
   </div>
 
   <div class="faq-item">
     <div class="faq-q" onclick="toggleFaq(this)">What is a .gkspack file?</div>
-    <div class="faq-a">A .gkspack file is your complete backup — it contains your entire reference library and manuscript in one file. Upload it on any device to restore your work instantly. Free users get 30 downloads per month; Pro users get unlimited.</div>
+    <div class="faq-a">A .gkspack file is your complete backup — it contains your entire reference library and manuscript in one file. Upload it on any device to restore your work. Free users get 30 downloads per month; Pro users get unlimited.</div>
   </div>
 
   <div class="faq-item">
     <div class="faq-q" onclick="toggleFaq(this)">Can I use GKS Write on multiple computers?</div>
-    <div class="faq-a">Free users are limited to one device. Pro users can install and activate GKS Write on as many devices as they want using the same license key.</div>
+    <div class="faq-a">Free users are limited to one device. Pro users can activate GKS Write on up to 5 of their own devices using their license key. To move to a new device, deactivate an old one first. Pro licenses are for individual use only and may not be shared or distributed to others. If you need more devices or a team license, email us.</div>
   </div>
 
   <div class="faq-item">
@@ -564,7 +575,7 @@ body.show-yearly .yearly-price  { display: block; }
 
   <div class="faq-item">
     <div class="faq-q" onclick="toggleFaq(this)">I have a question not listed here — how do I contact you?</div>
-    <div class="faq-a">Email us at gkswrite@allbiosolution.com — we respond within 24 hours on working days.</div>
+    <div class="faq-a">Email us at gkswrite@allbiosolution.com — we try our best to respond within 24 hours on working days.</div>
   </div>
 
 </section>
